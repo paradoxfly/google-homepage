@@ -2,7 +2,7 @@ import '../index.css'
 
 function Search(props){
   return(
-    <div class="search">
+    <div className="search">
       <input id="searchInput" type="text" onChange= { props.onChange }/>
     </div>
   )

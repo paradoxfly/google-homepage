@@ -3,19 +3,19 @@ import logo from '../sh-logo-dark.png'
 import React, { useState } from 'react';
 
 function Logo(props){
-  const [ content ] = useState(props.content)
-  if (content === ""){
+
+  if (props.content === ""){
     return(
       <div id="sideHustleLogo">
         <img src={logo} alt="SideHustle logo" height="92px" width="300px"/>
       </div>
     );
-  } else{
+  } else {
     const style = {
       color: 'green', fontFamily: 'cursive', fontSize: '5em'
     }
     return(
-      <h1 style={style}>{content}</h1>
+      <h1 style={style}>{props.content}</h1>
     )
   }
 }
