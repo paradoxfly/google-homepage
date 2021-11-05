@@ -20,14 +20,14 @@ code {
   align-items: center;
 }
 #sideHustleLogo {
-  margin-bottom: 25px;
+  margin-bottom: 1.56rem;
 }
 .search {
   text-align: center;
   border: #dfe1e5 1px solid;
   font-size: 1.5em;
   border-radius: 25px;
-  padding: 10px;
+  padding: 0.63rem;
   width: 500px;
   box-shadow: 0 0 0 0 #dfe1e5;
   transition-property: box-shadow;
@@ -42,20 +42,20 @@ input {
 .search:hover,
 .search:active,
 .search:focus {
-  box-shadow: 0 2px 7px 0 #dfe1e5;
+  box-shadow: 0 0.13rem 0.45rem 0 #dfe1e5;
 }
 
 .search-buttons {
-  margin-top: 25px;
+  margin-top: 1.6rem;
 }
 
 button {
-  font-size: 14px;
-  padding: 7px 15px;
+  font-size: 0.88rem;
+  padding: 0.45rem 0.95rem;
   background-color: #f0f0f0;
   color: #585858;
   border: none;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   border: transparent 1px solid;
   transition-property: border;
   transition-duration: 0.25s;
