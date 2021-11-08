@@ -1,6 +1,6 @@
 import '../index.css'
 import logo from '../sh-logo-dark.png'
-import React, { useState } from 'react';
+
 
 function Logo(props){
 

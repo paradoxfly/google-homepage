@@ -3,24 +3,7 @@ import './index.css';
 import Logo from './Components/Logo'
 import Search from './Components/Search'
 import SearchButton from './Components/SearchButton';
-import React, { useState } from 'react'
-
-// function App() {
-//     const [state, setState] = useState('')
-    
-//     function handleChange(event) {
-//         let value = event.target.value
-//         setState(value)
-//         console.log(state)
-//     }
-//     return ( 
-//         <div className = "container" >
-//             <Logo content = { state }/> 
-//             <Search onInput = { handleChange }/> 
-//             <SearchButton/>
-//         </div>
-//     );
-// }
+import React from 'react'
 
 class App extends React.Component {
     constructor(props) {
